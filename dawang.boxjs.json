@@ -37,10 +37,10 @@
 		   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
 		  }
 	    ]
-        "icons": [
+              "icons": [
 		  "https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
 		  "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
-	          ]	
+	               ]	
 		 }
 	     ]
 }
