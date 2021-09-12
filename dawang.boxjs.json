@@ -5,7 +5,8 @@
 	"icon": "",
 	"repo": "https://github.com/dawang1110/QX",
 	"apps": [
-		{
+		{       "author": "@dawang1110",
+			"repo": "https://github.com/dawang1110/QX/blob/main/dawang.boxjs.json",
 			"id": "dw_youth_read",
 			"name": "安卓中青自动阅读",
 			"keys": ["zqbody_body"],
@@ -35,8 +36,6 @@
 					"rows": 1,
 					"desc": "记录上次执行的位置，可以控制从第几个body开始执行"
 				}
-			"author": "@dawang1110",
-			"repo": "https://github.com/dawang1110/QX/blob/main/dawang.boxjs.json",
 			"icons": [
 				"https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
 				"https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
