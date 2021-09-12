@@ -3,7 +3,7 @@
   "author": "@Dawang", 
   "icon": "https://avatars2.githubusercontent.com/u/47924389?s=460&u=5152f048a9e8aaa45102763a578172407c40fcc8&v=4", 
   "name": "Dawang 订阅", 
-  "repo": "https://github.com/Sunert/Scripts/tree/master", 
+  "repo": "https://github.com/dawang1110/QX/tree/main", 
   "apps": [
     {
 			"id": "dw_youth_read",
@@ -58,7 +58,7 @@
 				}
 			],
 			"author": "@Dawang",
-			"repo": "https://github.com/songyangzz/QuantumultX/blob/master/YOUTH_READ.js",
+			"repo": "https://github.com/dawang1110/QX/tree/main/youthread.js",
 			"icons": [
 				"https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
 				"https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
