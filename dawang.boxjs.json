@@ -35,7 +35,7 @@
 		   "rows": 1,
 		   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
 		  }
-	    ] 
+	    ],
 			"author": "@dawang1110",
 			"repo": "https://github.com/dawang1110/QX/blob/main/dawang.boxjs.json",
                         "icons": [
