@@ -3,7 +3,7 @@
   "author": "@Dawang", 
   "icon": "", 
   "name": "Dawang 订阅", 
-  "repo": "https://github.com/dawang1110/QX/tree/main", 
+  "repo": "https://github.com/dawang1110/QX/main", 
   "apps": [
     {
       "author": "@Dawang", 
@@ -37,7 +37,7 @@
 	},
 	{
 	  "id": "zqbody_body",
-	  "name": "自动阅读请求body",
+	  "name": "阅读请求body",
 	  "val": "",
 	  "type": "textarea",
 	  "autoGrow": false,
