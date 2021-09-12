@@ -3,20 +3,21 @@
   "author": "@Dawang", 
   "icon": "", 
   "name": "Dawang 订阅", 
-  "repo": "https://github.com/dawang1110/QX/main", 
+  "repo": "https://github.com/dawang1110/QX", 
   "apps": [
     {
       "author": "@Dawang", 
       "descs_html": [
         "<p>手动获取安卓版阅读Body并填入，本脚本改自@Sunert，感谢。</p>"
       ], 
+      "id": "D_youth_read",
+      "name": "中青阅读看看赚阅读",
       "keys": [
 		"zqck",
 	        "zqread_body",
 		"zqbody_body"
 	      ],
        "repo": "https://github.com/dawang1110/QX/main/youthread.js",
-       "id": "dw_youth_read",
        "script": "https://raw.githubusercontent.com/dawang1110/QX/main/youthread.js", 
        "settings": [
         {
