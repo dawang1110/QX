@@ -17,7 +17,7 @@
           "val": true,
           "type": "boolean",
           "desc": "运行脚本时不发出系统弹窗通知"
-        },
+                          },
 				{
 					"id": "zqbody_body",
 					"name": "请求body",
@@ -39,7 +39,7 @@
 			        "icons": [
 				"https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
 				"https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
-			]
-		
+			                 ]
+		}
 	]
 }
