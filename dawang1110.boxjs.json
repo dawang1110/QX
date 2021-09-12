@@ -57,7 +57,7 @@
 	   "desc": "看看赚请求体"
 	  },
 	  {
-	   "id": "zqbody_body_index1",
+	   "id": "zqbody_body_index",
 	   "name": "上次执行位置",
 	   "val": "",
 	   "type": "textarea",
