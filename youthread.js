@@ -1,20 +1,23 @@
 /*
-更新时间: 2021-09-12 14:07
-
-请自行抓包，阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据，抓包地址为"https://ios.baertt.com/v5/article/complete.json"，在Github Actions中的Secrets新建name为'YOUTH_READ'的一个值，拷贝抓包的请求体到下面Value的文本框中，添加的请求体越多，获得青豆次数越多，本脚本不包含任何推送通知
-
-多个请求体时用'&'号或者换行隔开" ‼️
-
+更新时间: 2021-09-12 14:07 @dawang
+安卓版中青阅读看看赚阅读，本脚本改自@sunert大佬，新手制作，如有问题请见谅！其他功能后续补充~
+boxjs订阅地址https://raw.githubusercontent.com/dawang1110/QX/main/dawang1110.boxjs.json
+// [task_local]
+// 5 */2 * * * https://raw.githubusercontent.com/dawang1110/QX/tree/main/youthread.js,tag=D中青阅读看看赚阅读，img-url=https://raw.githubusercontent.com/Orz-3/mini/master/youth.png,enabled=true
+//安卓版请自行抓包，阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据，抓包地址为"https://kandian.youth.cn/v5/article/complete.json"，在boxjs中自行手动添加body，添加的请求体越多，获得青豆次数越多，本脚本不包含任何推送通知
+//如果抓取到的body是zqkan--=9XXX形式,请手动改成p=9XXX再填入boxjs中。
+//多个请求体时用'&'号隔开" ‼️
+//需手动填入ck、阅读body、看看赚body。
 */
 
 //let s = 30000 //等待延迟30s
-const $ = new Env("中青看点")
+const $ = new Env("中青阅读看看赚阅读")
 //const notify = $.isNode() ? require('./sendNotify') : '';
 let ReadArr = [], YouthBody = "", readscore = 0;
-let bodys = $.getdata("zqgetbody_body");
+let bodys = $.getdata("zqbody_body");
 
 if (!(bodys && bodys != '')) {
-  $.msg("", "", '请先阅读文章获取中青body\nbody获取越多，脚本可获得青豆越多')
+  $.msg("", "", '请先阅读文章手动抓取中青body\nbody获取越多，脚本可获得青豆越多')
   $.done()
 }
 YouthBody = bodys.split('&');
@@ -33,13 +36,13 @@ Object.keys(YouthBody).forEach((item) => {
     ReadArr.push(YouthBody[item])
   }
 })
-let indexLast = $.getdata('zqgetbody_body_index');
+let indexLast = $.getdata('zqbody_body_index');
 $.begin = indexLast ? parseInt(indexLast,10) : 1;
 console.log(`============ 脚本执行-国际标准时间(UTC)：${new Date().toLocaleString()}  =============\n`)
 console.log(`============ 脚本执行-北京时间(UTC+8)：${new Date(new Date().getTime() + 8 * 60 * 60 * 1000).toLocaleString()}  =============\n`)
 !(async () => {
   if (!ReadArr[0]) {
-    console.log($.name, '【提示】请把抓包的请求体填入Github 的 Secrets 中，请以&隔开')
+    console.log($.name, '【提示】请把抓包的请求体填入boxjs中，请以&隔开')
     return;
   }
 
@@ -75,16 +78,16 @@ function AutoRead() {
   
   return new Promise((resolve, reject) => {
     let url = {
-      url: `https://ios.baertt.com/v5/article/complete.json`,
+      url: `https://kandian.youth.cn/v5/article/complete.json`,
       headers: {
-        'User-Agent': 'KDApp/1.7.8 (iPhone; iOS 14.0; Scale/3.00)'
+        'User-Agent': 'okhttp/3.12.2'
       },
       body: articlebody
     };
     $.post(url, async (error, response, data) => {
       $.begin=$.begin+1;
       let res=$.begin%ReadArr.length
-      $.setdata(res+"", 'zqgetbody_body_index');
+      $.setdata(res+"", 'zqbody_body_index');
       let readres = JSON.parse(data);
       if (readres.error_code == '0' && typeof readres.items.read_score === 'number') {
         console.log(`\n本次阅读获得${readres.items.read_score}个青豆，请等待30s后执行下一次阅读\n`);
