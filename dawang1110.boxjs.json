@@ -14,8 +14,9 @@
       "id": "youth", 
       "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js", 
       "keys": [
-		"zqbody_body",
-		"zqbody_body1"
+		"zqck",
+	        "zqread_body",
+		"zqbody_body"
 	      ],
        "repo": "https://github.com/dawang1110/QX/tree/main/youthread.js",
        "id": "dw_youth_read",
@@ -29,31 +30,31 @@
           "desc": "运行脚本时不发出系统弹窗通知"
         },
 	{
+	  "id": "zqck",
+	  "name": "中青ck",
+	  "val": "",
+	  "type": "textarea",
+	  "autoGrow": false,
+	  "rows": 1,
+	  "desc": "安卓版进去我的页面获得"
+	},
+	{
 	  "id": "zqbody_body",
-	  "name": "请求body",
+	  "name": "自动阅读请求body",
 	  "val": "",
 	  "type": "textarea",
 	  "autoGrow": false,
 	  "rows": 1,
 	  "desc": "安卓版阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
-	},
-	{
-	  "id": "zqbody_body1",
-	  "name": "请求body",
-	  "val": "",
-	  "type": "textarea",
-	  "autoGrow": false,
-	  "rows": 1,
-	  "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
 	 },
          {
-           "id": "zqbody_body_index",
-	   "name": "上次执行位置",
+           "id": "zqread_body",
+	   "name": "看看赚body",
 	   "val": "",
 	   "type": "textarea",
 	   "autoGrow": false,
 	   "rows": 1,
-	   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+	   "desc": "看看赚请求体"
 	  },
 	  {
 	   "id": "zqbody_body_index1",
@@ -62,7 +63,7 @@
 	   "type": "textarea",
 	   "autoGrow": false,
 	   "rows": 1,
-	   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+	   "desc": "自动阅读中记录上次执行的位置，可以控制从第几个body开始执行"
 	   }
 		],
 			"icons": [
