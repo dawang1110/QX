@@ -6,59 +6,66 @@
   "repo": "https://github.com/dawang1110/QX/tree/main", 
   "apps": [
     {
-			"id": "dw_youth_read",
-			"name": "安卓中青自动阅读",
-			"keys": ["zqbody_body","zqbody_body1"],
-			"settings": [
-			 {
+      "author": "@Dawang", 
+      "descs_html": [
+        "<p>手动获取安卓版阅读Body并填入，本脚本改自@Sunert，感谢。</p>"
+      ], 
+      "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth.js", 
+      "id": "youth", 
+      "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js", 
+      "settings": [
+	    "keys": [
+		    "zqbody_body",
+		    "zqbody_body1"
+	    ],
+	    "repo": "https://github.com/dawang1110/QX/tree/main/youthread.js",
+	    "id": "dw_youth_read",
+	     "script": "https://raw.githubusercontent.com/dawang1110/QX/tree/main/youthread.js", 
+	  "settings": [
+        {
           "id": "YOUNTH_READ_Notify",
           "name": "静默运行",
           "val": true,
           "type": "boolean",
           "desc": "运行脚本时不发出系统弹窗通知"
         },
-				{
-					"id": "zqbody_body",
-					"name": "请求body",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "安卓版阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
-				}
-				,
-				{
-					"id": "zqbody_body1",
-					"name": "请求body",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
-				}
-				,
-				{
-					"id": "zqbody_body_index",
-					"name": "上次执行位置",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "记录上次执行的位置，可以控制从第几个body开始执行"
-				}
-				,
-				{
-					"id": "zqbody_body_index1",
-					"name": "上次执行位置",
-					"val": "",
-					"type": "textarea",
-					"autoGrow": false,
-					"rows": 1,
-					"desc": "记录上次执行的位置，可以控制从第几个body开始执行"
-				}
-			],
-			"author": "@Dawang",
-			"repo": "https://github.com/dawang1110/QX/tree/main/youthread.js",
+	{
+	  "id": "zqbody_body",
+	  "name": "请求body",
+	  "val": "",
+	  "type": "textarea",
+	  "autoGrow": false,
+	  "rows": 1,
+	  "desc": "安卓版阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+	},
+	{
+	  "id": "zqbody_body1",
+	  "name": "请求body",
+	  "val": "",
+	  "type": "textarea",
+	  "autoGrow": false,
+	  "rows": 1,
+	  "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+	 },
+         {
+           "id": "zqbody_body_index",
+	   "name": "上次执行位置",
+	   "val": "",
+	   "type": "textarea",
+	   "autoGrow": false,
+	   "rows": 1,
+	   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+	  },
+	  {
+	   "id": "zqbody_body_index1",
+	   "name": "上次执行位置",
+	   "val": "",
+	   "type": "textarea",
+	   "autoGrow": false,
+	   "rows": 1,
+	   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+	   }
+		],
 			"icons": [
 				"https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
 				"https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
