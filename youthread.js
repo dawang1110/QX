@@ -1,9 +1,6 @@
 /*
 更新时间: 2021-09-12 14:07 @dawang
 安卓版中青阅读看看赚阅读，本脚本改自@sunert大佬，新手制作，如有问题请见谅！其他功能后续补充~
-// boxjs订阅地址https://raw.githubusercontent.com/dawang1110/QX/main/dawang1110.boxjs.json
-// [task_local]
-// 5 */2 * * * https://raw.githubusercontent.com/dawang1110/QX/tree/main/youthread.js,tag=D中青阅读看看赚阅读,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/youth.png,enabled=true
 //安卓版请自行抓包，阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据，抓包地址为"https://kandian.youth.cn/v5/article/complete.json"，在boxjs中自行手动添加body，添加的请求体越多，获得青豆次数越多，本脚本不包含任何推送通知
 //如果抓取到的body是zqkan--=9XXX形式,请手动改成p=9XXX再填入boxjs中。
 //多个请求体时用'&'号隔开" ‼️
