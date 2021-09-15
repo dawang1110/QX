@@ -8,7 +8,7 @@
                 {     
 			"id": "dw_youth_read",
 			"name": "安卓中青自动阅读",
-			"keys": ["zqbody_body"],
+			"keys": ["zqbody_body","zqbody_body2","zqbody_body3","zqbody_body4"],
     "settings": [
 	         {
                   "id": "YOUNTH_READ_Notify",
@@ -18,8 +18,8 @@
                   "desc": "运行脚本时不发出系统弹窗通知"
                   },
 		 {
-		   "id": "zqbody_body",
-		   "name": "请求body",
+		   "id": "zqbody_body1",
+		   "name": "请求body1",
 		   "val": "",
 		   "type": "textarea",
 		   "autoGrow": false,
@@ -27,13 +27,119 @@
 		   "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
 		  },
 		  {
-		   "id": "zqgetbody_body_index",
+		   "id": "zqgetbody_body_index1",
 		   "name": "上次执行位置",
 		   "val": "",
 		   "type": "textarea",
 		   "autoGrow": false,
 		   "rows": 1,
 		   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+		  }
+	    {
+
+		   "id": "zqbody_body2",
+
+		   "name": "请求body2",
+
+		   "val": "",
+
+		   "type": "textarea",
+
+		   "autoGrow": false,
+
+		   "rows": 1,
+
+		   "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+
+		  },
+
+		  {
+
+		   "id": "zqgetbody_body_index2",
+
+		   "name": "上次执行位置",
+
+		   "val": "",
+
+		   "type": "textarea",
+
+		   "autoGrow": false,
+
+		   "rows": 1,
+
+		   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+
+		  }
+		
+	    {
+
+		   "id": "zqbody_body3",
+
+		   "name": "请求body3",
+
+		   "val": "",
+
+		   "type": "textarea",
+
+		   "autoGrow": false,
+
+		   "rows": 1,
+
+		   "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+
+		  },
+
+		  {
+
+		   "id": "zqgetbody_body_index3",
+
+		   "name": "上次执行位置",
+
+		   "val": "",
+
+		   "type": "textarea",
+
+		   "autoGrow": false,
+
+		   "rows": 1,
+
+		   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+
+		  }
+{
+
+		   "id": "zqbody_body4",
+
+		   "name": "请求body4",
+
+		   "val": "",
+
+		   "type": "textarea",
+
+		   "autoGrow": false,
+
+		   "rows": 1,
+
+		   "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+
+		  },
+
+		  {
+
+		   "id": "zqgetbody_body_index4",
+
+		   "name": "上次执行位置",
+
+		   "val": "",
+
+		   "type": "textarea",
+
+		   "autoGrow": false,
+
+		   "rows": 1,
+
+		   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
+
 		  }
 	    ],
 			"author": "@dawang1110",
