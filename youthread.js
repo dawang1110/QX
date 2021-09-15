@@ -75,7 +75,7 @@ function AutoRead() {
   
   return new Promise((resolve, reject) => {
     let url = {
-      url: `https://kandian.youth.cn/v5/article/complete.json`,
+      url: `https://kandian.wkandian.com/v5/article/complete.json`,
       headers: {
         'User-Agent': 'okhttp/3.12.2'
       },
