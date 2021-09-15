@@ -77,7 +77,7 @@ function AutoRead() {
     let url = {
       url: `https://kandian.wkandian.com/v5/article/complete.json`,
       headers: {
-        'User-Agent': 'okhttp/3.12.2'
+        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
       },
       body: articlebody
     };
