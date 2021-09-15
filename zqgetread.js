@@ -17,7 +17,7 @@ let YouthBody=[];
         }
 
       YouthBody = bodys.split('&');
-      articlebodyVal = articlebodyVal.replace(/zqkd_parem/g,"p")   
+      articlebodyVal = articlebodyVal.replace(/zqkd_param/g,"p")   
      
      bodys=articlebodyVal+'&'+bodys;
     }
