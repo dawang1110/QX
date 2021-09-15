@@ -12,7 +12,7 @@ const $ = new Env("中青阅读看看赚阅读")
 //const notify = $.isNode() ? require('./sendNotify') : '';
 let ReadArr = [], YouthBody = "", readscore = 0;
 let bodys = $.getdata("zqbody_body");
-const  bodys = bodys.replace(/zqkd_param/g,"p")   
+
 if (!(bodys && bodys != '')) {
   $.msg("", "", '请先阅读文章手动抓取中青body\nbody获取越多，脚本可获得青豆越多')
   $.done()
