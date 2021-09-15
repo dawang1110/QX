@@ -8,7 +8,7 @@
                 {     
 			"id": "dw_youth_read",
 			"name": "安卓中青自动阅读",
-			"keys": ["zqbody_body","zqbody_body2","zqbody_body3","zqbody_body4"],
+			"keys": ["zqbody_body1","zqbody_body2","zqbody_body3","zqbody_body4"],
     "settings": [
 	         {
                   "id": "YOUNTH_READ_Notify",
