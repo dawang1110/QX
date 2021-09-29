@@ -9,15 +9,15 @@
 			"id": "dw_youth_read",
 			"name": "中青自动阅读",
 			"keys": ["zqbody_body1","zqbody_body2","zqbody_body3","zqbody_body4"],
-    "settings": [
-	         {
-                  "id": "YOUNTH_READ_Notify",
-                  "name": "静默运行",
-                  "val": true,
-                  "type": "boolean",
-                  "desc": "运行脚本时不发出系统弹窗通知"
-                  },
-		 {
+                    "settings": [
+	                         {
+                                  "id": "YOUNTH_READ_Notify",
+                                  "name": "静默运行",
+                                  "val": true,
+                                  "type": "boolean",
+                                  "desc": "运行脚本时不发出系统弹窗通知"
+                                 },
+		                 {
 		   "id": "zqbody_body1",
 		   "name": "请求body1",
 		   "val": "",
@@ -25,8 +25,8 @@
 		   "autoGrow": false,
 		   "rows": 1,
 		   "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
-		  },
-		  {
+		                 },
+		                 {
 		   "id": "zqgetbody_body_index1",
 		   "name": "上次执行位置",
 		   "val": "",
@@ -34,8 +34,8 @@
 		   "autoGrow": false,
 		   "rows": 1,
 		   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
-		  },
-	    {
+		                  },
+	                          {
 
 		   "id": "zqbody_body2",
 
@@ -51,9 +51,9 @@
 
 		   "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
 
-		  },
+		                 },
 
-		  {
+		                {
 
 		   "id": "zqgetbody_body_index2",
 
@@ -69,9 +69,9 @@
 
 		   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
 
-		  },
+		                },
 		
-	    {
+	                       {
 
 		   "id": "zqbody_body3",
 
@@ -87,9 +87,9 @@
 
 		   "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
 
-		  },
+		              },
 
-		  {
+		              {
 
 		   "id": "zqgetbody_body_index3",
 
@@ -105,8 +105,8 @@
 
 		   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
 
-		  },
-{
+		              },
+                              {
 
 		   "id": "zqbody_body4",
 
@@ -120,11 +120,10 @@
 
 		   "rows": 1,
 
-		   "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+		   "desc": "阅读文章和看视频，多看几篇文章和视频，获得更多包数据"
 
-		  },
-
-		  {
+		           },
+		           {
 
 		   "id": "zqgetbody_body_index4",
 
@@ -140,61 +139,63 @@
 
 		   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
 
-		  }
-	    ],
+		            }
+	        ],
 			"author": "@dawang1110",
 			"repo": "https://github.com/dawang1110/QX/blob/main/dawang.boxjs.json",
                         "icons": [
 		         "https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
 		         "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
 	                          ]	
-		 }, 
-
-    {
-
-      "author": "@dawang1110", 
-
-      "keys": [
-
-        "jkdhd", 
-	"jkdck",
-        "jukan_name", 
-
-      ], 
-
-      "repo": "https://github.com/Sunert/Scripts/blob/master/Task/jukan.js", 
-
-      "id": "jukan", 
-
-      "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jukan.js", 
-
-      "settings": [
-
-        {
-
-          "id": "jukan_out", 
-
-          "val": false, 
-
-          "name": "自动提现", 
-
-          "type": "boolean", 
-
-          "desc": "自动提现开关，请填入提现金额及微信绑定实名，默认关闭"
-
         }, 
 
-        {
+    {
+      "id": "jukan",
+      "name": "聚看点",
+      "keys": [ "jkdhd", 
+	        "jkdck",
+                "jukan_name", 
+              ], 
 
-          "id": "jukan_cash", 
+      "settings": [
+    {
 
-          "val": "", 
+		   "id": "jkdhd",
 
-          "name": "提现金额", 
+		   "name": "hd",
 
-          "type": "radios", 
+		   "val": "",
 
-          "items": [
+		   "type": "textarea",
+
+		   "autoGrow": false,
+
+		   "rows": 1,
+
+		   "desc": "hd" 
+    },
+    {
+
+		   "id": "jkdck",
+
+		   "name": "ck",
+
+		   "val": "",
+
+		   "type": "textarea",
+
+		   "autoGrow": false,
+
+		   "rows": 1,
+
+		   "desc": "ck"
+     },
+ {
+ "id": "jukan_cash", 
+ "val": "", 
+ "name": "提现金额", 
+ "type": "radios", 
+ "items": [
 
             {
 
@@ -255,17 +256,16 @@
         }
 
       ], 
-
-      "name": "聚看点", 
-
+      "repo": "https://github.com/Sunert/Scripts/blob/master/Task/jukan.js", 
+      "author": "@dawang1110", 
       "icons": [
 
         "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/jukan_mini.png", 
 
         "https://cdn.jsdelivr.net/gh/Sunert/Profiles@master/QuantumultX/Rules/Images/icon/jukan.png"
 
-      ]
+               ]
 
     }
-	     ]
+  ]
 }
