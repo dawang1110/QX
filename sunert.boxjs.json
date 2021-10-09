@@ -320,10 +320,10 @@
           ]
         }, 
         {
-          "id": "jukan_name", 
-          "placeholder": "填入微信真实姓名", 
+          "id": "jkdhd", 
+          "placeholder": "hd", 
           "val": "", 
-          "name": "微信真实姓名", 
+          "name": "jkdhd", 
           "type": "text"
         }
       ], 
