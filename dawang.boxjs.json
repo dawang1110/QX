@@ -1,15 +1,15 @@
 {
 	"id": "dawang.app.sub",
-	"name": "dawang应用订阅",
 	"author": "@dawang1110",
 	"icon": "",
+	"name": "dawang应用订阅",
 	"repo": "https://github.com/dawang1110/QX",
 	"apps": [
                {     
-			"id": "dw_youth_read",
-			"name": "中青自动阅读",
-			"keys": ["zqbody_body1","zqbody_body2","zqbody_body3","zqbody_body4"],
-                    "settings": [
+		"id": "dw_youth_read",
+		"name": "中青自动阅读",
+		"keys": ["zqbody_body1","zqbody_body2","zqbody_body3","zqbody_body4"],
+                "settings": [
 	                         {
                                   "id": "YOUNTH_READ_Notify",
                                   "name": "静默运行",
@@ -17,16 +17,16 @@
                                   "type": "boolean",
                                   "desc": "运行脚本时不发出系统弹窗通知"
                                  },
-		                 {
-		   "id": "zqbody_body1",
-		   "name": "请求body1",
-		   "val": "",
-		   "type": "textarea",
-		   "autoGrow": false,
-		   "rows": 1,
-		   "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
-		                 },
-		                 {
+		 {
+		  "id": "zqbody_body1",
+		  "name": "请求body1",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
+		  },
+		  {
 		   "id": "zqgetbody_body_index1",
 		   "name": "上次执行位置",
 		   "val": "",
@@ -34,12 +34,10 @@
 		   "autoGrow": false,
 		   "rows": 1,
 		   "desc": "记录上次执行的位置，可以控制从第几个body开始执行"
-		                  },
-	                          {
-
-		   "id": "zqbody_body2",
-
-		   "name": "请求body2",
+		   },
+	           {
+	            "id": "zqbody_body2",
+		    "name": "请求body2",
 
 		   "val": "",
 
@@ -148,112 +146,29 @@
 		         "https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
 	                          ]	
         }, 
-
-    {
+{
       "id": "jukan",
       "name": "聚看点",
-      "keys": [ "jkdhd", 
-	        "jkdck",
-                "jukan_name", 
-              ], 
-
+      "keys": [ "jkdhd1","jkdck1"], 
       "settings": [
     {
-
-		   "id": "jkdhd",
-
-		   "name": "hd",
-
-		   "val": "",
-
-		   "type": "textarea",
-
-		   "autoGrow": false,
-
-		   "rows": 1,
-
-		   "desc": "hd" 
-    },
+		  "id": "jkdhd1",
+		  "name": "请求body1",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "手动获得更多包数据"
+		  },
     {
-
-		   "id": "jkdck",
-
-		   "name": "ck",
-
-		   "val": "",
-
-		   "type": "textarea",
-
-		   "autoGrow": false,
-
-		   "rows": 1,
-
-		   "desc": "ck"
-     },
- {
- "id": "jukan_cash", 
- "val": "", 
- "name": "提现金额", 
- "type": "radios", 
- "items": [
-
-            {
-
-              "key": "3", 
-
-              "label": "3元(邀请专享)"
-
-            }, 
-
-            {
-
-              "key": "10", 
-
-              "label": "10元(阅读/邀请)"
-
-            }, 
-
-            {
-
-              "key": "30", 
-
-              "label": "30元(无条件)"
-
-            }, 
-
-            {
-
-              "key": "50", 
-
-              "label": "50元(无条件)"
-
-            }, 
-
-            {
-
-              "key": "100", 
-
-              "label": "100元(无条件)"
-
-            }
-
-          ]
-
-        }, 
-
-        {
-
-          "id": "jukan_name", 
-
-          "placeholder": "填入微信真实姓名", 
-
-          "val": "", 
-
-          "name": "微信真实姓名", 
-
-          "type": "text"
-
-        }
+		  "id": "jkdck1",
+		  "name": "ckbody1",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "手动获得更多包数据"
+		  }
 
       ], 
       "repo": "https://github.com/Sunert/Scripts/blob/master/Task/jukan.js", 
