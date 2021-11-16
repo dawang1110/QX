@@ -6,12 +6,14 @@
 
 
 [rewrite_local]
+
 ^https?://(ios\.baertt|kandian\.wkandian)\.com/v5/article/complete\.json url script-request-body https://raw.githubusercontent.com/dawang1110/QX/main/zqgetbody1.js
 ^https?://(ios\.baertt|kandian\.wkandian)\.com/v5/article/complete\.json url script-request-body https://raw.githubusercontent.com/dawang1110/QX/main/zqgetbody2.js
 ^https?://(ios\.baertt|kandian\.wkandian)\.com/v5/article/complete\.json url script-request-body https://raw.githubusercontent.com/dawang1110/QX/main/zqgetbody3.js
 ^https?://(ios\.baertt|kandian\.wkandian)\.com/v5/article/complete\.json url script-request-body https://raw.githubusercontent.com/dawang1110/QX/main/zqgetbody4.js
 
 [task_local]
+
 2 */2 * * * https://raw.githubusercontent.com/dawang1110/QX/main/read1.js , tag=ztxtop中青自动阅读账号1, img-url=https://ghproxy.com/https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
 2 */2 * * * https://raw.githubusercontent.com/dawang1110/QX/main/read2.js , tag=ztxtop中青自动阅读账号2, img-url=https://ghproxy.com/https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
 2 */2 * * * https://raw.githubusercontent.com/dawang1110/QX/main/read3.js , tag=ztxtop中青自动阅读账号3, img-url=https://ghproxy.com/https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Youth.png, enabled=true
