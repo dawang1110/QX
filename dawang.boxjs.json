@@ -132,7 +132,7 @@
                         "<p>安卓端浏览赚的body需通过抓包工具获取，搜索 adlickstart ，复制请求体，用$隔开，填入zqbody_body系列中。</p>"
 			"<br />", 
                         "<p>注意所以请求体的正确格式均为p=XXXX，如果是以zqkd_param=开头，请手动修改成正确格式。</p>"
-			      ]
+			      ],
 	"keys": [
 	         "ios_kkzbody",
 	         "ios_llzbody",
