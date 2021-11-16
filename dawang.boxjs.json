@@ -5,18 +5,29 @@
 	"name": "dawang应用订阅",
 	"repo": "https://github.com/dawang1110/QX",
 	"apps": [
-               {     
-		"id": "dw_youth_read",
-		"name": "中青自动阅读",
-		"keys": ["zqbody_body1","zqbody_body2","zqbody_body3","zqbody_body4"],
-                "settings": [
-	                         {
-                                  "id": "YOUNTH_READ_Notify",
-                                  "name": "静默运行",
-                                  "val": true,
-                                  "type": "boolean",
-                                  "desc": "运行脚本时不发出系统弹窗通知"
-                                 },
+		 {     
+		  "id": "dw_youth_read",
+		  "name": "中青自动阅读",
+		  "keys": ["zqbody_body1",
+			   "zqbody_body2",
+			   "zqbody_body3",
+			   "zqbody_body4",
+			   "zqbody_body5",
+			   "zqbody_body6",
+			   "zqbody_body7",
+			   "zqbody_body8",
+			   "zqbody_body9",
+			   "zqbody_body10"
+			  ],
+                "settings": 
+		        [
+	                  {
+                           "id": "YOUNTH_READ_Notify",
+                           "name": "静默运行",
+                           "val": true,
+                           "type": "boolean",
+                           "desc": "运行脚本时不发出系统弹窗通知"
+                          },
 		 {
 		  "id": "zqbody_body1",
 		  "name": "请求body1",
@@ -25,7 +36,7 @@
 		  "autoGrow": false,
 		  "rows": 1,
 		  "desc": "阅读文章和看视频，提示获得body。"
-		  },
+		 },
 	         {
 	          "id": "zqbody_body2",
 		  "name": "请求body2",
@@ -34,7 +45,7 @@
 		  "autoGrow": false,
 		  "rows": 1,
 		  "desc": "阅读文章和看视频，提示获得body。"
-		  },
+		 },
 	         {
 		  "id": "zqbody_body3",
 		  "name": "请求body3",
@@ -42,8 +53,8 @@
 		  "type": "textarea",
 		  "autoGrow": false,
 		  "rows": 1,
-		  "desc": "阅读文章和看视频，倒计时转一圈显示青豆到账即可，多看几篇文章和视频，获得更多包数据"
-		  },
+		  "desc": "阅读文章和看视频，提示获得body。"
+		 },
                  {
 		  "id": "zqbody_body4",
 		  "name": "请求body4",
@@ -51,8 +62,277 @@
 		  "type": "textarea",
 		  "autoGrow": false,
 		  "rows": 1,
-		  "desc": "阅读文章和看视频，多看几篇文章和视频，获得更多包数据"
-		  },
+		  "desc": "阅读文章和看视频，提示获得body。"
+		 },
+                 {
+		  "id": "zqbody_body5",
+		  "name": "请求body5",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "阅读文章和看视频，提示获得body。"
+		 },
+                 {
+		  "id": "zqbody_body6",
+		  "name": "请求body6",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "阅读文章和看视频，提示获得body。"
+		 },
+                 {
+		  "id": "zqbody_body7",
+		  "name": "请求body7",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "阅读文章和看视频，提示获得body。"
+		 },
+                 {
+		  "id": "zqbody_body8",
+		  "name": "请求body8",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "阅读文章和看视频，提示获得body。"
+		 },
+                 {
+		  "id": "zqbody_body9",
+		  "name": "请求body9",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "阅读文章和看视频，提示获得body。"
+		 },
+                 {
+		  "id": "zqbody_body10",
+		  "name": "请求body10",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "阅读文章和看视频，提示获得body。"
+		 }		
+	        ],
+		"author": "@dawang1110",
+		"repo": "https://github.com/dawang1110/QX/blob/main/dawang.boxjs.json",
+                "icons": 
+		[
+		"https://raw.githubusercontent.com/Orz-3/mini/master/youth.png",
+		"https://raw.githubusercontent.com/Orz-3/task/master/youth.png"
+	        ]	
+        }, 
+{     
+		"id": "dw_zqkkz",
+		"name": "中青看看赚浏览赚合集",
+		"keys": ["zqkkz_body1",
+			 "zqkkz_body2",
+			 "zqkkz_body3",
+			 "zqkkz_body4",
+			 "zqkkz_body5",
+			 "zqkkz_body6",
+			 "zqkkz_body7",
+			 "zqkkz_body8",
+			 "zqkkz_body9",
+			 "zqkkz_body10",
+			 "zqkkz_body11",
+			 "zqkkz_body12",
+			 "zqkkz_body13",
+			 "zqkkz_body14",
+			 "zqkkz_body15",
+			 "zqkkz_body16",
+			 "zqkkz_body17",
+			 "zqkkz_body18",
+			 "zqkkz_body19",
+			 "zqkkz_body20"
+			],
+                "settings": 
+		           [
+		            {
+		             "id": "zqkkz_body1",
+		             "name": "看看赚浏览赚body1",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body2",
+		             "name": "看看赚浏览赚body2",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body3",
+		             "name": "看看赚浏览赚body3",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body4",
+		             "name": "看看赚浏览赚body4",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body5",
+		             "name": "看看赚浏览赚body5",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body6",
+		             "name": "看看赚浏览赚body6",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body7",
+		             "name": "看看赚浏览赚body7",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body8",
+		             "name": "看看赚浏览赚body8",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body9",
+		             "name": "看看赚浏览赚body9",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body10",
+		             "name": "看看赚浏览赚body10",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+                            },
+	                    {
+	                     "id": "zqkkz_body11",
+		             "name": "看看赚浏览赚body11",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body12",
+		             "name": "看看赚浏览赚body12",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+			    },
+	                    {
+	                     "id": "zqkkz_body13",
+		             "name": "看看赚浏览赚body13",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body14",
+		             "name": "看看赚浏览赚body14",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+			    },
+	                    {
+	                     "id": "zqkkz_body15",
+		             "name": "看看赚浏览赚body15",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+			    },
+	                    {
+	                     "id": "zqkkz_body16",
+		             "name": "看看赚浏览赚body16",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+			    },
+	                    {
+	                     "id": "zqkkz_body17",
+		             "name": "看看赚浏览赚body17",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+			    },
+	                    {
+	                     "id": "zqkkz_body18",
+		             "name": "看看赚浏览赚body18",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+			    },
+	                    {
+	                     "id": "zqkkz_body19",
+		             "name": "看看赚浏览赚body19",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+		            },
+	                    {
+	                     "id": "zqkkz_body20",
+		             "name": "看看赚浏览赚body20",
+		             "val": "",
+		             "type": "textarea",
+		             "autoGrow": false,
+		             "rows": 1,
+		             "desc": "手动填入"
+			    }
 	        ],
 		"author": "@dawang1110",
 		"repo": "https://github.com/dawang1110/QX/blob/main/dawang.boxjs.json",
@@ -87,7 +367,7 @@
 		  }
 
       ], 
-      "repo": "https://github.com/Sunert/Scripts/blob/master/Task/jukan.js", 
+      "repo": "https://github.com/dawang1110/QX/blob/main/dawang.boxjs.json", 
       "author": "@dawang1110", 
       "icons": [
 
