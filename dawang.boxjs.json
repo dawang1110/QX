@@ -7,8 +7,9 @@
 	"apps": [
 		 {     
 		  "id": "dw_youth_read",
-		  "name": "中青自动阅读",
-		  "keys": ["zqbody_body1",
+		  "name": "中青阅读",
+		  "keys": [
+			   "zqbody_body1",
 			   "zqbody_body2",
 			   "zqbody_body3",
 			   "zqbody_body4",
@@ -19,15 +20,8 @@
 			   "zqbody_body9",
 			   "zqbody_body10"
 			  ],
-                "settings": 
-		        [
-	                  {
-                           "id": "YOUNTH_READ_Notify",
-                           "name": "静默运行",
-                           "val": true,
-                           "type": "boolean",
-                           "desc": "运行脚本时不发出系统弹窗通知"
-                          },
+     "settings": 
+		[
 		 {
 		  "id": "zqbody_body1",
 		  "name": "请求body1",
@@ -128,31 +122,51 @@
 	        ]	
         }, 
 {     
-		"id": "dw_zqkkz",
-		"name": "中青看看赚浏览赚合集",
-		"keys": ["zqkkz_body1",
-			 "zqkkz_body2",
-			 "zqkkz_body3",
-			 "zqkkz_body4",
-			 "zqkkz_body5",
-			 "zqkkz_body6",
-			 "zqkkz_body7",
-			 "zqkkz_body8",
-			 "zqkkz_body9",
-			 "zqkkz_body10",
-			 "zqkkz_body11",
-			 "zqkkz_body12",
-			 "zqkkz_body13",
-			 "zqkkz_body14",
-			 "zqkkz_body15",
-			 "zqkkz_body16",
-			 "zqkkz_body17",
-			 "zqkkz_body18",
-			 "zqkkz_body19",
-			 "zqkkz_body20"
-			],
-                "settings": 
-		           [
+	"id": "dw_zqkkz",
+	"name": "中青看看赚浏览赚合集",
+	"descs_html": [
+                        "<h4 align=\"center\">苹果端看看赚-每天一次任务的body为ios_kkzbody，浏览赚的body为ios_llzbody，通过脚本获取。</h4>", 
+                        "<br />", 
+                        "<p>安卓端看看赚与苹果端一致，无需重复获取。</p>"
+			"<br />", 
+                        "<p>安卓端浏览赚的body需通过抓包工具获取，搜索 adlickstart ，复制请求体，用$隔开，填入zqbody_body系列中。</p>"
+			"<br />", 
+                        "<p>注意所以请求体的正确格式均为p=XXXX，如果是以zqkd_param=开头，请手动修改成正确格式。</p>"
+			      ]
+	"keys": [
+	         "ios_kkzbody",
+	         "ios_llzbody",
+	         "zqkkz_body1",
+		 "zqkkz_body2",
+		 "zqkkz_body3",
+		 "zqkkz_body4",
+		 "zqkkz_body5",
+		 "zqkkz_body6",
+		 "zqkkz_body7",
+		 "zqkkz_body8",
+		 "zqkkz_body9",
+		 "zqkkz_body10"
+		],
+        "settings": 
+		   [
+		 {
+		  "id": "ios_kkzbody",
+		  "name": "ios看看赚body",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "脚本获得body。"
+		 },
+		 {
+		  "id": "ios_llzbody",
+		  "name": "ios浏览赚body",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "脚本获得body。"
+		 },
 		            {
 		             "id": "zqkkz_body1",
 		             "name": "看看赚浏览赚body1",
