@@ -95,10 +95,20 @@
 			   "zqbody_body7",
 			   "zqbody_body8",
 			   "zqbody_body9",
-			   "zqbody_body10"
+			   "zqbody_body10",
+			   "zqvideo"
 			  ],
      "settings": 
 		[
+		{
+		  "id": "zqvideo",
+		  "name": "小视频body",
+		  "val": "",
+		  "type": "textarea",
+		  "autoGrow": false,
+		  "rows": 1,
+		  "desc": "看小视频，提示获得body。"
+		 },
 		 {
 		  "id": "zqbody_body1",
 		  "name": "请求body1",
