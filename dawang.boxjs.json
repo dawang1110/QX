@@ -20,7 +20,8 @@
         "youthcashurl_zq", 
         "youthcashbody_zq", 
         "youthcash_zq", 
-        "youthcard_zq"
+        "youthtime_zq";
+	"youthpunch_zq" 
       ], 
       "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth.js", 
       "id": "youthzq", 
@@ -31,14 +32,21 @@
           "val": "true", 
           "name": "打卡赚钱", 
           "type": "boolean", 
-          "desc": "每日打卡报名及早起打卡"
+          "desc": "每日打卡时间"
         }, 
         {
           "id": "youthtime_zq", 
-          "val": "06", 
+          "val": "0", 
           "name": "打卡时间", 
           "type": "number", 
           "desc": "每日早起打卡时间"
+        },  
+        {
+          "id": "youthpunch_zq", 
+          "val": "0", 
+          "name": "打卡报名时间", 
+          "type": "number", 
+          "desc": "每日打卡报名时间"
         }, 
         {
           "id": "delay_rotary_zq", 
