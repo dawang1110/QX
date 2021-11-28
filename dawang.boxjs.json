@@ -14,28 +14,28 @@
       ], 
       "keys": [
         "youth_nick", 
-        "youthhd_zq", 
+        "youthcookie_zq", 
         "youthread_zq", 
         "youthreadtime_zq", 
         "youthcashurl_zq", 
         "youthcashbody_zq", 
-        "youthzqcash", 
-        "youthzqcard"
+        "youthcash_zq", 
+        "youthcard_zq"
       ], 
       "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth.js", 
       "id": "youthzq", 
       "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js", 
       "settings": [
         {
-          "id": "youthzqcash", 
-          "val": "false", 
+          "id": "youthcard_zq", 
+          "val": "true", 
           "name": "打卡赚钱", 
           "type": "boolean", 
           "desc": "每日打卡报名及早起打卡"
         }, 
         {
-          "id": "yuthzqtime", 
-          "val": "05", 
+          "id": "youthtime_zq", 
+          "val": "06", 
           "name": "打卡时间", 
           "type": "number", 
           "desc": "每日早起打卡时间"
@@ -55,7 +55,7 @@
           "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
         }, 
         {
-          "id": "youthzqcash", 
+          "id": "youthcash_zq", 
           "val": "30", 
           "name": "提现金额", 
           "type": "radios", 
