@@ -2,7 +2,7 @@
  "name": "dawang1110 各种Faker",
  "description": "各种Faker,自用，请善用搜索功能。",
  "task": [
-    {"config":"2 9 * * * https://ghproxy.com/https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_big_winner.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true", "addons":"https://jdsharedresourcescdn.azureedge.net/jdresource/QuantumultX/lxk0301_cookies.conf"},
+    {"config":"2 9 * * * https://ghproxy.com/https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bean_change.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true", "addons":"https://jdsharedresourcescdn.azureedge.net/jdresource/QuantumultX/lxk0301_cookies.conf"},
     {"config":"10 7 * * * https://ghproxy.com/https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_bean_home.js, tag=领京豆额外奖励, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png, enabled=true", "addons":"https://jdsharedresourcescdn.azureedge.net/jdresource/QuantumultX/lxk0301_cookies.conf"},
     {"config":"20 * * * *https://ghproxy.com/https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_big_winner.js, tag=省钱大赢家之翻翻乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true", "addons":"https://jdsharedresourcescdn.azureedge.net/jdresource/QuantumultX/lxk0301_cookies.conf"},
     {"config":"0 0 0 * * * https://ghproxy.com/https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_blueCoin.js, tag=东东超市兑换奖品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true", "addons":"https://jdsharedresourcescdn.azureedge.net/jdresource/QuantumultX/lxk0301_cookies.conf"},
