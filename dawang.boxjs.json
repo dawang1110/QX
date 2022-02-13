@@ -20,7 +20,7 @@
         "youthcashurl_zq", 
         "youthcashbody_zq", 
         "youthcash_zq", 
-        "youthtime_zq";
+        "youthtime_zq",
 	"youthpunch_zq" 
       ], 
       "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth.js", 
